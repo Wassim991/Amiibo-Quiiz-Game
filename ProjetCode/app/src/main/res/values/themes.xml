@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Thème de base -->
+    <style name="Base.Theme.Amiibo" parent="Theme.MaterialComponents.Light.DarkActionBar" >
+        <!-- Appliquer la barre bleue -->
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <!-- Thème principal utilisé dans AndroidManifest -->
+    <style name="Theme.Amiibo" parent="Base.Theme.Amiibo" />
+
+    <!-- Personnalisation de la barre d’action -->
+    <style name="CustomActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/blue</item> <!-- ta couleur personnalisée -->
+    </style>
+
+</resources>

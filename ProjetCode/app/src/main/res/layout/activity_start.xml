@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/startRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/blue"
+    android:padding="24dp">
+
+    <!-- Logo Nintendo -->
+    <ImageView
+        android:id="@+id/logoNintendo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/icon"
+        android:contentDescription="Logo Nintendo"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Phrase d'accroche -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plongez dans l’univers des Amiibo et testez vos connaissances !"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/pretendo"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Amiibo Images -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="32dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/amiibo1"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/amiibo3"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/amiibo4"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/answer_background"
+        android:text="Commencer"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp" />
+</LinearLayout>

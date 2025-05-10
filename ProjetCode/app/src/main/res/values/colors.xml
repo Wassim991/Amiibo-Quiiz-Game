@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#09ACC1</color>
+
+    <!-- Couleurs ajoutées -->
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="black">#FF000000</color> <!-- si tu veux différencier du black par défaut -->
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Amiibo</string>
+    <string name="valider">Valider</string>
+    <string name="tout_s_lectionner">Tout sélectionner</string>
+    <string name="de_quel_gameserie_vient_cet_amiibo">De quel GameSerie vient cet Amiibo ?</string>
+</resources>
